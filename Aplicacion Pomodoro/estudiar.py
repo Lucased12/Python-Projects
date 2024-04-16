@@ -1,3 +1,5 @@
+# Github: https://github.com/Lucased12
+
 import tkinter as tk
 from plyer import notification
 
