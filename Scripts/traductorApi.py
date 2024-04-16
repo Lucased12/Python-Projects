@@ -1,3 +1,5 @@
+# Github: https://github.com/Lucased12
+
 from tkinter import Tk, Label, Entry, Button
 from googletrans import Translator
 from PIL import Image, ImageTk
