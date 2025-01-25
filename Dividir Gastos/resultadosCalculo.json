@@ -1,0 +1,56 @@
+{
+    "miembros": [
+        "lucas",
+        "juan c",
+        "mati"
+    ],
+    "items": [
+        {
+            "descripcion": "pizza",
+            "monto": 2000.0,
+            "pagador": "lucas",
+            "participantes": [
+                "lucas",
+                "juan c",
+                "mati"
+            ]
+        },
+        {
+            "descripcion": "fanta",
+            "monto": 500.0,
+            "pagador": "lucas",
+            "participantes": [
+                "juan c"
+            ]
+        },
+        {
+            "descripcion": "bebidas",
+            "monto": 1000.0,
+            "pagador": "lucas",
+            "participantes": [
+                "lucas",
+                "mati"
+            ]
+        }
+    ],
+    "calculos": {
+        "totalGastos": 3500.0,
+        "balances": [
+            {
+                "miembro": "lucas",
+                "balance": -3500.0,
+                "estado": "Pago de mas"
+            },
+            {
+                "miembro": "juan c",
+                "balance": 1166.67,
+                "estado": "Debe"
+            },
+            {
+                "miembro": "mati",
+                "balance": 1166.67,
+                "estado": "Debe"
+            }
+        ]
+    }
+}
