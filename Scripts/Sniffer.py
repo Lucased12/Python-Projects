@@ -21,5 +21,6 @@ def mostrarPaquete(paquete):
 print("Sniffeando trafico HTTP... (Ctrl+C para detener)")
 sniff(filter="tcp port 80", prn=mostrarPaquete, store=False)
 #sniff para capturar paquetes, filter lo dice el nombre, prn llama la funcion, store evita guardar paquetes en memoria
+#http://neverssl.com (sitio web para probar) 
 
 #en caso de alguien estar leyendo esto, ando aprendiendo (^.^).
